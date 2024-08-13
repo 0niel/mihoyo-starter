@@ -1,53 +1,52 @@
-更多：**[🍨BetterGI · 更好的原神（自动化工具合集）](https://github.com/babalae/better-genshin-impact)** | [🎲七圣召唤自动打牌](https://github.com/babalae/genius-invokation-auto-toy) | [🐟 自动钓鱼机](https://github.com/babalae/genshin-fishing-toy) 
+更多：**[🍨BetterGI · Более лучшая Genshin Impact (набор автоматизированных инструментов)](https://github.com/babalae/better-genshin-impact)** | [🎲Автоматическая игра в карты Семь святых призывов](https://github.com/babalae/genius-invokation-auto-toy) | [🐟Автоматическая рыбалка](https://github.com/babalae/genshin-fishing-toy) 
 
 
-# 🛠 MHY启动器
+# 🛠 MHY Launcher
 
+Инструмент для быстрой смены аккаунтов для игр Genshin Impact, Genshin Impact Cloud, Honkai: Star Rail, Honkai Impact 3rd, Zenless Zone Zero. Поддерживает международные версии.
 
-原神、云·原神、崩坏：星穹铁道、崩坏三、绝区零 多账号快速切换工具，支持国际服。
+Если вы не играете в какую-то из игр, вы можете скрыть ее через меню "Отображение интерфейса".
 
-如果你不玩其中某个游戏，可以通过“界面显示”菜单进行隐藏。
+[Старая версия](https://github.com/babalae/genshin-account) поддерживала только Genshin Impact. Теперь, когда у всех игр MHY примерно одинаковая система хранения данных аккаунта, инструмент был переписан (скопирован и вставлен).
 
-[老版本](https://github.com/babalae/genshin-account)只支持原神，现在看看MHY现在游戏基本都是一样的账号信息存储方式，顺手就重写了下（复制粘贴了下）。
+[📥Скачать с Github (2.3)](https://github.com/babalae/mihoyo-starter/releases/download/2.3/MiHoYoStarter_2.3.zip)
 
-[📥Github下载（2.3）](https://github.com/babalae/mihoyo-starter/releases/download/2.3/MiHoYoStarter_2.3.zip)
-
-## 截图
+## Скриншот
 ![Screenshot](https://raw.githubusercontent.com/babalae/mihoyo-starter/main/Document/Screenshot.gif)
 
-## 使用方法
+## Инструкция по использованию
 
-环境要求：
+Системные требования:
 
-* Windows 7 或更高版本。
-* [.NET Framework 4.5.2](https://www.microsoft.com/en-us/download/details.aspx?id=42642) 或更高版本。
+* Windows 7 или более поздняя версия.
+* [.NET Framework 4.5.2](https://www.microsoft.com/en-us/download/details.aspx?id=42642) или более поздняя версия.
 
-就三个按钮，先登录后保存，后续就可以随便切换了。
+Всего три кнопки: сначала войдите в аккаунт, затем сохраните его, после чего можно будет переключаться между сохраненными аккаунтами.
 
-具体点：
+Подробно:
 
-先登录账号1，在已经登录的情况下点击[保存当前账号]，填写对应的名字保存即可。
+Сначала войдите в аккаунт 1, после успешного входа нажмите [Сохранить текущий аккаунт] и укажите соответствующее имя для сохранения.
 
-再注销账号1，登录账号2，同上操作保存账号。
+Затем выйдите из аккаунта 1, войдите в аккаунт 2 и выполните те же действия для сохранения аккаунта.
 
-然后在游戏退出后就可以随意选中已保存的账号，点击[切换选中账号]，再运行游戏默认登录的就是选中的账号。
+После выхода из игры можно выбрать сохраненный аккаунт, нажать [Переключить выбранный аккаунт], и при следующем запуске игры вы войдете в выбранный аккаунт.
 
-注意：
+Обратите внимание:
 
-1. 切换时会自动重启游戏（所以要求填写游戏本体路径），可以在托盘图标处点击账号进行切换。
-2. 正常情况下，游戏目录会自动从注册表游戏安装信息中读取，个别情况下会读取不到（你可能移动过游戏目录），此时需要手动选择游戏本体目录，注意不是游戏启动程序目录！以下是游戏本体路径：
-    * 原神(国服)：`\Genshin Impact\Genshin Impact Game\YuanShen.exe`
-    * 云·原神：`\Genshin Impact Cloud Game\Genshin Impact Cloud Game.exe`
-    * 崩坏：星穹铁道：`\Star Rail\Game\StarRail.exe`
-    * 绝区零：`\ZenlessZoneZero Game\ZenlessZoneZero.exe`
+1. При переключении аккаунтов игра будет автоматически перезапускаться (поэтому необходимо указать путь к файлу игры). Вы также можете переключать аккаунты, кликнув на значок в трее.
+2. Обычно каталог игры автоматически определяется из информации об установке в реестре, но в некоторых случаях может не быть найден (например, если вы переместили папку с игрой). В этом случае необходимо вручную указать каталог с файлом игры, но не с файлом запуска! Вот пути к файлам игр:
+    * Genshin Impact (Китайская версия): `\Genshin Impact\Genshin Impact Game\YuanShen.exe`
+    * Genshin Impact Cloud: `\Genshin Impact Cloud Game\Genshin Impact Cloud Game.exe`
+    * Honkai: Star Rail: `\Star Rail\Game\StarRail.exe`
+    * Zenless Zone Zero: `\ZenlessZoneZero Game\ZenlessZoneZero.exe`
 
-## 问题反馈
+## Обратная связь
 
-提 [Issue](https://github.com/babalae/mihoyo-starter/issues)
+Оставьте [Issue](https://github.com/babalae/mihoyo-starter/issues)
  
 
-## 投喂
+## Поддержка
 
-觉的好用的话，可以支持作者哟ヾ(･ω･`｡) 👇
-* [⚡爱发电](https://afdian.net/@huiyadanli)
-* [🍚微信赞赏](https://github.com/huiyadanli/huiyadanli/blob/master/DONATE.md)
+Если вам понравился инструмент, вы можете поддержать автора 👇
+* [⚡Afdian](https://afdian.net/@huiyadanli)
+* [🍚Поддержка через WeChat](https://github.com/huiyadanli/huiyadanli/blob/master/DONATE.md)
